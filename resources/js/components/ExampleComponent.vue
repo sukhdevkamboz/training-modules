@@ -79,7 +79,7 @@
                                 </div>
                               </div>
 
-                              <button @click="addOption" class="btn btn-primary mt-2">
+                              <button type="button" @click="addOption" class="btn btn-primary mt-2">
                                  Add Option
                               </button>
 
@@ -94,7 +94,7 @@
                                   <label>
                                     <input type="checkbox" v-model="option.is_correct" /> Correct
                                   </label>
-                                  <button @click="removeOption(index)" class="btn btn-sm btn-danger">
+                                  <button type="button" @click="removeOption(index)" class="btn btn-sm btn-danger">
                                     Remove
                                   </button>
                               </div>
